@@ -1,0 +1,15 @@
+@model systemwine.app.Models.Vinho
+
+@{
+    ViewData["Title"] = @Model.Name;
+}
+
+<section id="detail-page">
+    <div class="container">
+
+        <h1>@Model.Name</h1>
+        <h2>Preço - @Model.Price</h2>
+        <h2>@Model.Description</h2>
+        
+    </div>
+</section>
